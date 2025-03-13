@@ -38,7 +38,6 @@ function Text(){
             <div class="mb-3">
                 <label for="editor" class="form-label">Type in text for Markdown</label>
                 <textarea class="form-control" id="editor" onChange={markdown}>{text}</textarea>
-                <p>This is</p>
             </div>
             <div class='mb-3'>
                 <label for="preview" class="form-label">Markdown Text</label>
